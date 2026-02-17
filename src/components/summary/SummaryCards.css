@@ -1,0 +1,105 @@
+header{
+    width: 100%
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.logo-img {
+  width: 50px;
+  height: 60px;
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.logo-content {
+  max-width: 250px;
+  h1 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  div {
+    font-size: 16px;
+    color: #555;
+  }
+}
+
+
+.summary-cards-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  
+
+  .income-card,
+  .expense-card,
+  .balance-card {
+    width: 310px;
+    height: 113px;
+    border-radius: 40px;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+  }
+}
+
+.amount-details{
+    transition: all 0.8s ease;
+}
+
+.amount-details:hover{
+    .amount-edit-btn{
+        display: block;
+        
+    }
+}
+
+.amount-title{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.amount-number{
+    display: flex;
+    justify-content: space-between;
+}
+
+.amount-edit-btn {
+ display: none;
+  background-color: yellowgreen;
+  cursor: pointer;
+  border: none;
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  border-radius: 20%;
+  text-align: center;
+  display: none;
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+
+
+.income-img,
+.expense-img,
+.balance-img {
+  img {
+    width: 60px;
+    height: 60px;
+  }
+}
