@@ -1,0 +1,126 @@
+.expensechart-section{
+    margin-top:50px ;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    padding: 30px 24px;
+    border-radius: 20px;
+}
+
+
+.expensechart-title{
+    font-size: 20px;
+    font-weight: 400;
+    color: #3c49e5;
+    color: blueviolet;
+
+}
+
+.expensechart-container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+   
+}
+
+
+
+
+.expensechart-categories{
+    margin: 5px;
+
+}
+
+.category-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 12px;
+    height: 50px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    margin: 15px 0;
+}
+
+.category-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.category-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.category-percentage{
+    margin-left: 10px;
+    color: #888;
+    font-size: 14px;
+    display: block;
+
+}
+
+@media (width<=768px){
+    .expensechart-section{
+   
+    padding: 30px 20px;
+}
+
+
+
+.expensechart-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+
+.expensechart-categories{
+    margin: 5px;
+
+}
+
+.category-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 12px;
+    height: 50px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    margin: 15px 0;
+}
+
+.category-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.category-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.category-percentage{
+    margin-left: 10px;
+    color: #888;
+    font-size: 14px;
+    display: block;
+
+}
+
+
+}
+

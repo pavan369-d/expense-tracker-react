@@ -1,11 +1,11 @@
 import "./AddTransaction.css"
 
-export function AddTransaction(){
+export function AddTransaction({handleClick}){
     return(
         <section className="add-transaction-form">
             <div className="form-title">
                 <div className="form-title-text">Add New Transaction</div>
-                <div className="form-cancel">Cancel</div>
+                <div className="form-cancel"><button onClick={handleClick}>Cancel</button></div>
             </div>
             <div className="form-category">
                 <div className="form-expense">Expense</div>

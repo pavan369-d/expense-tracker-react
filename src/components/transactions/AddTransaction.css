@@ -12,13 +12,21 @@
   .form-title-text {
     font-size: 22px;
     color: blueviolet;
+   
   }
 
-  .form-cancel {
-    font-size: 16px;
-    color: #555;
-  }
 }
+
+  .form-cancel {
+  
+    button{
+      border: none;
+      font-size: 16px;
+      color: #555;
+      background-color: #fbeffa;
+      cursor: pointer;
+    }
+  }
 
 .form-category {
   display: flex;
@@ -43,6 +51,7 @@
 
   .form-category-expense-click {
     background-color: #f63297;
+
   }
   .form-category-income-click {
     background-color: #00bba2;
@@ -75,5 +84,10 @@
 
   .add-transaction-btn{
     margin-top: 40px;
+    
   }
+}
+
+@media (width<=768px){
+
 }
