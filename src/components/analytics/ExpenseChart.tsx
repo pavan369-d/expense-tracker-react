@@ -44,8 +44,7 @@ export function ExpenseChart({ data }: { data: { category: string; amount: numbe
         <Tooltip />
          <Legend
       layout="vertical"
-      align="right"
-      verticalAlign="middle"
+      
     />
       </PieChart>
     </ResponsiveContainer>

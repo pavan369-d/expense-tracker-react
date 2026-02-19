@@ -3,7 +3,7 @@ import "./SummaryCards.css"
 import { IncomeCard } from "./IncomeCard";
 import { ExpenseCard } from "./ExpenseCard";
 import { BalanceCard } from "./BalanceCard";
-function SummaryCards(){
+function SummaryCards({totalExpense,totalIncome,currentBalance}){
     return(
         <header>
             <div className="logo">
@@ -16,9 +16,9 @@ function SummaryCards(){
                 </div>
             </div>
             <div className="summary-cards-section">
-                <IncomeCard/>
-                <ExpenseCard/>
-                <BalanceCard/>
+                <IncomeCard totalIncome={totalIncome}/>
+                <ExpenseCard totalExpense={totalExpense} />
+                <BalanceCard currentBalance={currentBalance}/>
             </div>
         </header>
     )
